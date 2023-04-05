@@ -1,0 +1,6 @@
+framework module Pods_LLFrameworkTest_Tests {
+  umbrella header "Pods-LLFrameworkTest_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
