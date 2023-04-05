@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LLFrameworkTest (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LLFrameworkTest (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LLFrameworkTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LLFrameworkTest: dacbd436948fc1ac16f67221c6f2dee812cb2063
+
+PODFILE CHECKSUM: 2279590b5044b0b1d25d2abbe53b10f8ed4df897
+
+COCOAPODS: 1.11.2
